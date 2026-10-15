@@ -51,7 +51,7 @@ Listed in the order the information travels through the system.
 
 | Step | Folder | Filename | Description |
 |---|---|---|---|
-| 1 | `Code/Input` | `GSB_Process.pde` | Processing sketch showing the giraffe, snake, beetle and RESET corners. Sends the position of the green box to Wekinator (`/wek/inputs`, port 6448) |
+| 1 | `Code/Input` | `GSB_Process.pde` | Processing sketch showing the giraffe, snake, beetle and RESET corners. Sends the position of the red dot to Wekinator (`/wek/inputs`, port 6448) |
 | 1 | `Code/Input/data` | `animals.png` | Image used by `GSB_Process.pde` |
 | 2 | `Code/Wek : GSB/Trained Model` | `WekinatorProject.wekproj` | Trained Wekinator project: classifies the box position into 4 classes (1 to 4) and sends the result to `/wek/outputs` on port 12000 |
 | 3 | `Code/Processing` | `processing_osc_to_arduino.pde` | Processing sketch which listens for OSC messages from Wekinator and sends them to the Arduino over serial |
@@ -67,7 +67,7 @@ Listed in the order the information travels through the system.
 3. Open `Code/Processing/processing_osc_to_arduino.pde` in Processing. Run it once, check the console for the list of serial ports, and change `Serial.list()[1]` to your Arduino's number. Run it again.
 4. Open Wekinator and load `Code/Wek : GSB/Trained Model/WekinatorProject.wekproj`, or train your own: 1 classifier output with 4 classes, sending to port 12000 at `/wek/outputs`.
 5. Run `Code/Input/GSB_Process.pde` so it sends the box position to Wekinator.
-6. Drag the green box into a corner and the arm moves into that pose.
+6. Drag the red dot into a corner and the arm moves into that pose.
 
 ## Debugging
 
