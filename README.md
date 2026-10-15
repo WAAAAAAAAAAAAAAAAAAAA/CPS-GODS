@@ -13,7 +13,7 @@ The arm has 4 servo motors (base, two vertical joints and a mouth) controlled by
 | Top left | Giraffe | 1 |
 | Top right | Snake | 2 |
 | Bottom left | Beetle | 3 |
-| Bottom right | Rest | 4 (any other value also triggers rest) |
+| Bottom right | Reset | 4 (any other value also triggers rest) |
 
 ## How it works
 
