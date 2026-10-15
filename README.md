@@ -48,10 +48,10 @@ Mouse position -> Wekinator -> OSC -> Processing -> Serial (USB) -> Arduino -> 4
 
 | Folder | Filename | Description |
 |---|---|---|
-| Codee | `processing_osc_to_arduino.pde` | Processing sketch which listens for OSC messages from Wekinator and sends them to the Arduino over serial |
-| Codee | `wekinator_to_animal.ino` | Arduino sketch which moves the servos into the giraffe, snake, beetle or rest pose |
-| Codee | `WEK_INPUT_FILENAME` | Wekinator input file (mouse position sent to Wekinator) |
-| Codee | `WEK_MODEL_FILENAME` | Trained Wekinator model for the 4 mouse regions |
+| Code | `processing_osc_to_arduino.pde` | Processing sketch which listens for OSC messages from Wekinator and sends them to the Arduino over serial |
+| Code | `wekinator_to_animal.ino` | Arduino sketch which moves the servos into the giraffe, snake, beetle or rest pose |
+| Code | `WEK_INPUT_FILENAME` | Wekinator input file (mouse position sent to Wekinator) |
+| Code | `WEK_MODEL_FILENAME` | Trained Wekinator model for the 4 mouse regions |
 | Debug | `debugging.md` | What went wrong while building this and how we fixed it |
 | Media | | Photos and videos of the arm |
 | data | | Data files |
