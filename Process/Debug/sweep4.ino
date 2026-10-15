@@ -8,7 +8,7 @@ Servo vertical1;
 Servo vertical2;
 Servo mouth;
 
-// Modified version of slowrite that prints all values trough wich servos span to pin point where the problem is
+// Sweep function: moves servo from 0 to 180 and back.
 void Sweep (Servo S){
   int pos = 0;
   for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
