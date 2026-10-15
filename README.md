@@ -1,8 +1,16 @@
 # Giraffe🦒, Snake🐍, Beetle🪲!
 
-A Wekinator and Arduino controlled robot arm (based on the DE-Arm / MeArm) that strikes animal poses depending on where the mouse is on screen. Made for the IDE programme in the Dyson School of Design Engineering at Imperial College London.
+A Wekinator and Arduino controlled robot arm (based on the DE-Arm / MeArm) that plays a version of rock, paper, scissors with animals: it strikes a giraffe, snake or beetle pose depending on where the mouse is on screen. Made for the IDE programme in the Dyson School of Design Engineering at Imperial College London.
 
-![Photo of the finished robot arm](Media/arm-photo.jpg)
+<img width="1101" height="653" alt="image" src="https://github.com/user-attachments/assets/fc388e02-480e-4e9c-b691-2fa40ded8455" />
+
+## How to play
+
+Like rock, paper, scissors, each animal beats one and loses to the other:
+
+- 🦒 **Giraffe** beats 🐍 **Snake** (stomps on it)
+- 🐍 **Snake** beats 🪲 **Beetle** (eats it)
+- 🪲 **Beetle** beats 🦒 **Giraffe** (eats its leaves)
 
 ## Summary
 
@@ -67,4 +75,4 @@ Built on the DE-Arm, remastered by Tong Zhang and Dr Rebecca Stewart from the op
 
 ## Team
 
-CPS-GODS: Giulio, Indiana, Roxane 
+CPS-GODS: Giulio, Indiana, Roxane
