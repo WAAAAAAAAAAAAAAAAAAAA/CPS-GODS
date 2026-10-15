@@ -27,7 +27,7 @@ The arm has 4 servo motors (base, two vertical joints and a mouth) controlled by
 
 Mouse position -> Wekinator -> OSC -> Processing -> Serial (USB) -> Arduino -> 4 servos
 
-1. **Input sketch** (`GSB_Process.pde`) shows the four corners and sends the position of the green box, dragged with the mouse, to Wekinator at `/wek/inputs` on port 6448.
+1. **Input sketch** (`GSB_Process.pde`) shows the four corners and sends the position of the red dot, dragged with the mouse, to Wekinator at `/wek/inputs` on port 6448.
 2. **Wekinator** classifies the position and outputs one class (1 to 4) to `/wek/outputs`.
 3. **Processing** (`processing_osc_to_arduino.pde`) listens for the OSC message on port 12000 and writes the class number to the Arduino at 9600 baud. It only sends when the value changes.
 4. **Arduino** (`Animals.ino`) reads the number and moves each servo to the angles for that pose, one degree at a time so the movement is smooth.
