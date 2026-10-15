@@ -45,7 +45,7 @@ Mouse position -> Wekinator -> OSC -> Processing -> Serial (USB) -> Arduino -> 4
 | Codee | `wekinator_to_animal.ino` | Arduino sketch which moves the servos into the giraffe, snake, beetle or rest pose |
 | Codee | `WEK_INPUT_FILENAME` | Wekinator input file (mouse position sent to Wekinator) |
 | Codee | `WEK_MODEL_FILENAME` | Trained Wekinator model for the 4 mouse regions |
-| docs | `debugging.md` | What went wrong while building this and how we fixed it |
+| Debug | `debugging.md` | What went wrong while building this and how we fixed it |
 | Media | | Photos and videos of the arm |
 | data | | Data files |
 
