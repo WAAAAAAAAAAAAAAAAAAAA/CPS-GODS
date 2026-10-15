@@ -13,9 +13,9 @@ How to check:
     
 Q3: does the robot arm move to the right postiion? 
 How to check:
-  1. check arduino is set up correctly (a picture of how the board look like) 
-  2. hardware check, run sweep for code to check servo calibraiton 
-  3. run keyboard for manual tuning 
+  1. check arduino is set up correctly <img width="1536" height="2048" alt="PHOTO-2026-10-15-16-25-07" src="https://github.com/user-attachments/assets/9b4808ef-5eed-4f30-b3be-5a9531a1907a" />
+
+  2. run keyboard for manual tuning 
 
     
 Q4: does arduino recive the right input?
