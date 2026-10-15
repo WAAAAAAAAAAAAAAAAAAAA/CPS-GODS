@@ -1,4 +1,4 @@
-# Geraff🦒, Snake🐍, Beetle🪲!
+# Giraffe🦒, Snake🐍, Beetle🪲!
 
 A Wekinator and Arduino controlled robot arm (based on the DE-Arm / MeArm) that strikes animal poses depending on where the mouse is on screen. Made for the IDE programme in the Dyson School of Design Engineering at Imperial College London.
 
