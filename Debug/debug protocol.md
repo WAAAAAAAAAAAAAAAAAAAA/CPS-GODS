@@ -25,4 +25,16 @@ Mouse position -> Wekinator -> Processing -> Arduino -> servos
 ## Q3: Does the Arduino receive the right input?
 
 **How to check:**
-Check that the port on line 39 of [`processing_osc_to_arduino.pde`](https://github.com/WAAAAAAAAAAAAAAAAAAAA/CPS-GODS/blob/main/Code/Processing/
+Check that the port on line 39 of [`processing_osc_to_arduino.pde`](https://github.com/WAAAAAAAAAAAAAAAAAAAA/CPS-GODS/blob/main/Code/Processing/processing_osc_to_arduino.pde) matches the Arduino port (`/dev/cu.usbmodem101`) in the list printed in the Processing console.
+
+<img width="1280" height="832" alt="Serial port line in the Processing sketch" src="https://github.com/user-attachments/assets/cb9b9568-a64c-4939-a2aa-3ddb535761ca" />
+<img width="1280" height="832" alt="List of serial ports in the Processing console" src="https://github.com/user-attachments/assets/28a8376b-035d-484e-99c5-219e5e504f0c" />
+
+## Q4: Does the robot arm move to the right position?
+
+**How to check:**
+1. Check that the Arduino is wired correctly.
+
+   <img width="1536" height="2048" alt="Arduino and servo wiring" src="https://github.com/user-attachments/assets/9b4808ef-5eed-4f30-b3be-5a9531a1907a" />
+
+2. Run the [debug script](https://github.com/WAAAAAAAAAAAAAAAAAAAA/CPS-GODS/blob/main/Debug/debug.ino) to fine-tune the servo angles.
