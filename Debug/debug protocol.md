@@ -1,4 +1,4 @@
-Q1: does the wek read the input? 
+Q1: does the wek read the input?<br/>
 How to check: 
   Run the [animal files](https://github.com/WAAAAAAAAAAAAAAAAAAAA/CPS-GODS/blob/main/Codee/Arduino/Animals.ino). 
   Run Wekinator and open the [Wekinator training folder](https://github.com/WAAAAAAAAAAAAAAAAAAAA/CPS-GODS/tree/main/Codee/Wek%20%3A%20GSB/WekinatorProject). The ouput number on wek should change when we hover over different animals.
