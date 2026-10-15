@@ -46,15 +46,15 @@ Mouse position -> Wekinator -> OSC -> Processing -> Serial (USB) -> Arduino -> 4
 
 ## Directory of Resources
 
-| Folder | Filename | Description |
-|---|---|---|
-| Code | `processing_osc_to_arduino.pde` | Processing sketch which listens for OSC messages from Wekinator and sends them to the Arduino over serial |
-| Code | `wekinator_to_animal.ino` | Arduino sketch which moves the servos into the giraffe, snake, beetle or rest pose |
-| Code | `WEK_INPUT_FILENAME` | Wekinator input file (mouse position sent to Wekinator) |
-| Code | `WEK_MODEL_FILENAME` | Trained Wekinator model for the 4 mouse regions |
-| Debug | `debugging.md` | What went wrong while building this and how we fixed it |
-| Media | | Photos and videos of the arm |
-| data | | Data files |
+Listed in the order the information travels through the system.
+
+| Step | Folder | Filename | Description |
+|---|---|---|---|
+| 1 | `Code/Input` | `GSB_Process.pde` | Processing sketch showing the giraffe, snake, beetle and RESET corners. Sends the position of the green box you drag with the mouse to Wekinator (`/wek/inputs`, port 6448) |
+| 2 | `Code/Wek : GSB/Trained Model` | `WekinatorProject.wekproj` | Trained Wekinator project: classifies the box position into 4 classes (1 to 4) and sends the result to `/wek/outputs` on port 12000 |
+| 3 | `Code/Processing` | `processing_osc_to_arduino.pde` | Processing sketch which listens for OSC messages from Wekinator and sends them to the Arduino over serial |
+| 4 | `Code/Arduino` | `Animals.ino` | Arduino sketch which moves the servos into the giraffe, snake, beetle or rest pose |
+| – | `Media` | | Photos and videos of the arm |
 
 ## How to run it
 
